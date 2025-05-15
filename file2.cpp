@@ -109,7 +109,7 @@ class DoubleLinkedList
             return;
         }
 
-        // Step 2: 
+        // Step 2: if node is at the beginning
         if (current == START)
         {
             START = current->next; // step 2a: START = START.next
@@ -120,7 +120,7 @@ class DoubleLinkedList
         }
         else
         {
-            // step 3: Link previous node to next of current
+            // step 3: 
             current->prev->next = current->next;
 
             // step 4: if current is not the last node
