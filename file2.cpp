@@ -97,7 +97,7 @@ class DoubleLinkedList
 
         Node *current = START;
 
-        // Step 1:  the list to find the node
+        // Step 1:  Traverse the list to find the node
         while(current != NULL && current->noMhs != rollNo)
         {
             current = current->next;
@@ -109,7 +109,7 @@ class DoubleLinkedList
             return;
         }
 
-        // Step 2: if node is at the beginning
+        // Step 2: 
         if (current == START)
         {
             START = current->next; // step 2a: START = START.next
