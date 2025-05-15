@@ -44,7 +44,7 @@ class DoubleLinkedList
             // step 4: newnode.next + start
             newNode->next = START;
 
-            
+
 
             // step 5: START.prev = newNode (if START Exist)
             if (START != NULL)
@@ -64,7 +64,7 @@ class DoubleLinkedList
         Node *current = START;
         while (current->next != NULL && current->next->noMhs < nim)
         {
-            current = current->next;
+            current = current->
         }
 
         if (current->next != NULL && nim == current->next->noMhs)
