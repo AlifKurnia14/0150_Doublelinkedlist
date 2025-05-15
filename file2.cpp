@@ -33,7 +33,7 @@ class DoubleLinkedList
             // Step 2: Assign value to the data fields
             newNode->noMhs = nim;
 
-            // step 3 : insert at beginning if list is empty or nim is smalles
+            // step 3 : insert at beginning if list is empty or nim is smallest
             if (START == NULL || nim <= START->noMhs)
             {
                 if (START != NULL && nim == START->noMhs)
@@ -264,5 +264,5 @@ int main()
         cout << endl;
         system("clear");
     } while (choice != '6');
-    
+
 }
