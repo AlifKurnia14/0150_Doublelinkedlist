@@ -131,7 +131,7 @@ class DoubleLinkedList
 
             // step 5: delete the node
             delete current;
-            cout << "Record" << rollNo << "deleted" << endl;
+            cout << "Record with roll number" << rollNo << "deleted" << endl;
         }
     }
 
@@ -139,7 +139,7 @@ class DoubleLinkedList
     {
         if (START == NULL)
         {
-            cout << "\nList is empty" << endl;
+            cout << "\n" << endl;
             return;
         }
 
