@@ -93,11 +93,11 @@ class DoubleLinkedList
 
         cout << "\nEnter the roll number of the student whose record is to be deleted";
         int rollNo;
-        cin >> 
+        cin >> rollNo;
 
         Node *current = START;
 
-        // Step 1: Transverse the list to find the node
+        // Step 1:  the list to find the node
         while(current != NULL && current->noMhs != rollNo)
         {
             current = current->next;
