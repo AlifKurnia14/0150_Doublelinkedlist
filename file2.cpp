@@ -83,7 +83,7 @@ class DoubleLinkedList
         current->next = newNode; // step 9d: current.next = newNode    
     }    
 
-    void 
+    void hapus()
     {
         if(START == NULL)
         {
@@ -93,7 +93,7 @@ class DoubleLinkedList
 
         cout << "\nEnter the roll number of the student whose record is to be deleted";
         int rollNo;
-        cin >> rollNo;
+        cin >> 
 
         Node *current = START;
 
