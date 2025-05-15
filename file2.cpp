@@ -64,7 +64,7 @@ class DoubleLinkedList
         Node *current = START;
         while (current->next != NULL && current->next->noMhs < nim)
         {
-            current = current->
+            current = current->next;
         }
 
         if (current->next != NULL && nim == current->next->noMhs)
@@ -83,7 +83,7 @@ class DoubleLinkedList
         current->next = newNode; // step 9d: current.next = newNode    
     }    
 
-    void hapus()
+    void 
     {
         if(START == NULL)
         {
